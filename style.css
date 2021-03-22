@@ -1,0 +1,56 @@
+.banner-wrapper{
+    position: relative;
+}
+
+.banner-wrapper .banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-wrapper .banner-text .banner-text-red{
+    text-align: center;
+    color: red;
+    font-size: 36px;
+}
+
+.banner-wrapper .banner-text .banner-text-white{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.filter-text{
+    text-align: center;
+}
+
+.product-item {
+    text-align: center;
+    padding: 30px;
+}
+
+.product-item .name-product{
+    padding: 10px;
+}
+
+.product-item .price-product{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.product-item:hover .name-product{
+    color:red
+}
+
+.product-item .button-product{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: 1px solid;
+}
+
+.product-item .button-product:hover{
+    color: black;
+    background-color: white;
+}
